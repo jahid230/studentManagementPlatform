@@ -8,6 +8,8 @@ import lombok.Setter;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
 import javax.validation.constraints.Size;
 import java.time.LocalDateTime;
 import java.util.UUID;
@@ -38,6 +40,8 @@ public class Product {
     private String description;
 
     @Column(name = "price")
+    @Min(2)
+    @Max(10)
     private int price;
 
     @Column(name = "is_deleted")

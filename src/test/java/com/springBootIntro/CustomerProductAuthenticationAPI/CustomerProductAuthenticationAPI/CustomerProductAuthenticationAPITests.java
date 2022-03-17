@@ -10,4 +10,5 @@ class CustomerProductAuthenticationAPITests {
 	void contextLoads() {
 	}
 
+
 }
