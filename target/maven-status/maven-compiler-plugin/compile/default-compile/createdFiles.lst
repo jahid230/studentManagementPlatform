@@ -1,0 +1,15 @@
+com/learn/entity/Address.class
+com/learn/request/CreateStudentRequest.class
+com/learn/response/StudentResponse.class
+com/learn/service/StudentService.class
+com/learn/entity/Subject.class
+com/learn/learnspringbootproject1/LearnSpringbootProject1Application.class
+com/learn/repository/AddressRepository.class
+com/learn/repository/SubjectRepository.class
+com/learn/repository/StudentRepository.class
+com/learn/entity/Student.class
+com/learn/request/UpdateStudentRequest.class
+com/learn/controller/StudentContoller.class
+com/learn/response/SubjectResponse.class
+com/learn/request/CreateSubjectRequest.class
+com/learn/request/InQueryRequest.class
